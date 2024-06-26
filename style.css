@@ -1,0 +1,12 @@
+.nav-logo {
+    height: 34px;
+    width: 138px;
+}
+
+.nav-avatar {
+    height: 40px;
+    width: 40px;
+}
+nav ion-icon {
+    font-size: 25px;
+}
