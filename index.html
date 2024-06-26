@@ -13,10 +13,10 @@
     />
   </head>
   <body>
-    <nav class="container-fluid p-2">
+    <nav class="container-fluid py-3 mt-3">
       <div class="row">
-        <div class="col-2 d-flex align-items-center justify-content-center">
-            <img class="nav-logo" src="logo.svg" alt="logo">
+        <div class="col-2 d-flex align-items-center">
+            <img class="nav-logo mx-3" src="logo.svg" alt="logo">
         </div>
         <div class="col-10 d-flex justify-content-between px-5">
             <div class="d-flex align-items-center gap-2">
@@ -27,20 +27,27 @@
             <ion-icon name="notifications-outline"></ion-icon>
             <img class="nav-avatar" src="face28.jpg" alt="">
             <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
-
         </div>
         </div>
     </nav>
-    <main class="container-fluid">
-        <div class="row d-flex justify-content-centeryu align-items-center>
-            <aside class="col-2 d-flex justify-content-center">
-                <ul class="menu">
-
+    <main class="container-fluid px-5">
+        <div class="row">
+            <aside class="col-2 p-0">
+                <ul class="menu ms-0 p-0">
                 </ul>
             </aside>
+            <section class="col-10">
+                <div class="row mt-5 pt-5">
+                    <div class="col-10 d-flex flex-column">
+                        <h5>Welcome Antonietta</h5>
+                        <div class="d-flex"><span>All systems are running smoothly! You have </span>
+                            <span class="span-blu"> 3 unread alerts!</span>
+                    </div>
 
-            
-            <div class="col-10"></div>
+                    </div>
+                    <div class="col-2"> <button class="btn-date btn rounded-2">Today(10gen2021)</button></div>
+                </div>
+            </div>
         </div>
     </main>
 
@@ -58,7 +65,5 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
-    
-   
   </body>
 </html>
